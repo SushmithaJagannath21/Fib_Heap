@@ -45,6 +45,7 @@ python3 project2_tests.py
 FibHeapLazy: You can test the FibHeapLazy implementation (specific to lazy deletion) using the same test file, as the FibHeapLazy class is included.
 
 Usage
+```bash
 'FibHeap Class' (fib.py)
 '__init__()': Initializes an empty Fibonacci Heap with no nodes.
 'insert(value)': Inserts a new node with the specified value into the Fibonacci Heap.
