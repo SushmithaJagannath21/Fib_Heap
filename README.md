@@ -45,14 +45,15 @@ python3 project2_tests.py
 FibHeapLazy: You can test the FibHeapLazy implementation (specific to lazy deletion) using the same test file, as the FibHeapLazy class is included.
 
 Usage
-FibHeap Class (fib.py)
-__init__(): Initializes an empty Fibonacci Heap with no nodes.
-insert(value): Inserts a new node with the specified value into the Fibonacci Heap.
-delete_min(): Deletes the minimum node from the Fibonacci Heap.
-find_min(): Returns the node with the minimum value.
-decrease_priority(node, new_val): Decreases the priority of the specified node to a new value.
-FibHeapLazy Class (fib_lazy.py)
+'FibHeap Class' (fib.py)
+'__init__()': Initializes an empty Fibonacci Heap with no nodes.
+'insert(value)': Inserts a new node with the specified value into the Fibonacci Heap.
+'delete_min()': Deletes the minimum node from the Fibonacci Heap.
+'find_min()': Returns the node with the minimum value.
+'decrease_priority(node, new_val)': Decreases the priority of the specified node to a new value.
+
+'FibHeapLazy Class' (fib_lazy.py)
 Implements a Fibonacci Heap with lazy deletion.
-delete_min_lazy(): Deletes the minimum node, accounting for vacant nodes.
-find_min_lazy(): Finds the minimum node, accounting for vacant nodes.
+'delete_min_lazy()': Deletes the minimum node, accounting for vacant nodes.
+'find_min_lazy()': Finds the minimum node, accounting for vacant nodes.
 
